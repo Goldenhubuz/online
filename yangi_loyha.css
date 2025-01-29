@@ -1,0 +1,172 @@
+/* Umumiy dizayn */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigatsiya */
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    text-align: right;
+    left: 0;
+}
+
+.b {
+    background-color: #333;
+    text-align: center;
+}
+
+.b a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.b a:hover {
+    color: aqua;
+}
+
+#mobile-menu {
+    right: 10px;
+}
+
+/* Asosiy sahifa */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #333
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: white;
+    padding-top: 50px;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+
+.hero .btn:hover {
+    color: #efb6df;
+}
+
+.hero p {
+    color: white;
+}
+
+/* Main header styles */
+.main-header  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    box-shadow: 0px 3px 16px 0px #11ff00;
+}
+
+.main-header__brand {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-navigation__item {
+    display: inline-block;
+    padding: 0.625rem;
+}
+
+.main-navigation__item a {
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 0.75rem;
+     font-weight: 500;
+}
+
+.main-navigation__item a:hover {
+    color: #efb6df;
+}
+
+/* Mahsulotlar */
+.products {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-card button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.social-icons a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
